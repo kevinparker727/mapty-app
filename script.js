@@ -128,6 +128,8 @@ class App {
   }
 
   _showForm(mapE) {
+    console.log('Map clicked, showing form');
+
     this.#mapEvent = mapE;
     form.classList.remove('hidden');
     inputDistance.focus();
